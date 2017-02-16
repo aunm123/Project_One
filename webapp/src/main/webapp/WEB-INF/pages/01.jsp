@@ -16,11 +16,11 @@
     <title>Title</title>
 </head>
 <body class="easyui-layout">
-    <div title="给我滚-管理系统" data-options="region:'north'" style="height: 100px">北部区域</div>
-    <div data-options="region:'west'" style="width: 200px;">西部区域</div>
-    <div data-options="region:'center'">中心区域</div>
-    <div data-options="region:'east'" style="width: 100px">东部区域</div>
-    <div data-options="region:'south'" style="height: 50px">南部区域</div>
+<div title="给我滚我就-管理系统" data-options="region:'north'" style="height: 100px">北部区域</div>
+<div title="栏目" data-options="region:'west'" style="width: 200px;">西部区域</div>
+<div data-options="region:'center'">中心区域</div>
+<div data-options="region:'east'" style="width: 100px">东部区域</div>
+<div data-options="region:'south'" style="height: 50px">南部区域</div>
 </body>
 </html>
 
