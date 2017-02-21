@@ -1,4 +1,4 @@
-package action;
+package com.action;
 
 import com.opensymphony.xwork2.Action;
 
