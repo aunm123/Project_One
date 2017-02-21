@@ -61,6 +61,10 @@
             <artifactId>spring-orm</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-spring-plugin</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-c3p0</artifactId>
         </dependency>

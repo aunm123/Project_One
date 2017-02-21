@@ -6,9 +6,18 @@
 
 <struts>
     <package name="homePack" namespace="/" extends="struts-default">
-        <action name="home" class="action.homeAction" method="execute">
+        <global-allowed-methods>regex:.*</global-allowed-methods>
+
+        <action name="home" class="com.action.homeAction" method="execute">
             <result name="success">/hello.html</result>
-            <result name="error">/WEB-INF/pages/02.jsp</result>
+            <result name="error">/easyui/02.jsp</result>
+        </action>
+        <action name="user_*" class="userAction" method="{1}">
+            <result name="success">/easyui/02.jsp</result>
         </action>
     </package>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+
 </struts>
+

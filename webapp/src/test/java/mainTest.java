@@ -1,5 +1,4 @@
 import com.dao.UserDao;
-import domain.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -17,14 +16,14 @@ public class mainTest {
         UserDao bean = (UserDao) context.getBean("userDaoImpl");
 //        bean.deleteUser(1);
 
-        User user = new User("我的名字1","我的密码1");
-        bean.saveUser(user);
+//        User user = new User("我的名字1","我的密码1");
+//        bean.save(user);
     }
 
     @Test
     public void delete(){
-        UserDao bean = (UserDao) context.getBean("userDaoImpl");
-        bean.deleteUser(1);
+//        UserDao bean = (UserDao) context.getBean("userDaoImpl");
+//        bean.delete(1);
     }
 
 }

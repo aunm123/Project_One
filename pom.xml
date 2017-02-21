@@ -102,6 +102,14 @@
                 <version>${jstl.version}</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-spring-plugin -->
+            <dependency>
+                <groupId>org.apache.struts</groupId>
+                <artifactId>struts2-spring-plugin</artifactId>
+                <version>2.5.8</version>
+            </dependency>
+
+
 
             <!--hibernate-->
             <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
